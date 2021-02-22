@@ -18,7 +18,7 @@ def get_ai_move(board, player):
 
 def mark(board, player, row, col):
     """Marks the element at row & col on the board for player."""
-    board[row][col] = player
+    board[row - 1][col] = player
 
 
 def has_won(board, player):
