@@ -23,6 +23,14 @@ def mark(board, player, row, col):
 
 def has_won(board, player):
     """Returns True if player has won the game."""
+    # same 3 in a row
+    # same 3 in a col
+    # same 3 in the main diagonal
+    # same 3 in the secondary diagonal
+
+
+    
+    
     return False
 
 
